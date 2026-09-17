@@ -1,0 +1,86 @@
+# ==========================================
+# Python - Raspberry Pi
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build/package files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Raspberry Pi / Linux
+# ==========================================
+
+*.log
+*.pid
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Arduino
+# ==========================================
+
+# Compiled/build output
+*.hex
+*.bin
+*.elf
+*.eep
+*.map
+*.o
+*.d
+
+# Arduino temporary build folders
+build/
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Operating System files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Project temporary files
+# ==========================================
+
+*.tmp
+*.temp
