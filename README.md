@@ -10,37 +10,9 @@ The Raspberry Pi handles the high-level navigation logic, processes GPS informat
 
 ## System Architecture
 
-```text
-                 NEO-8M GPS
-                     |
-                     v
-            +-------------------+
-            |   Raspberry Pi    |
-            |     Main Brain    |
-            |                   |
-            |  GPS Processing   |
-            |  Campus Map       |
-            |  Navigation Logic |
-            |  Decision Making  |
-            +---------+---------+
-                      |
-                 USB Serial
-                      |
-                      v
-            +-------------------+
-            |      Arduino      |
-            |  Motor Controller |
-            |                   |
-            |  Command Handling |
-            |  Motor Control    |
-            +---------+---------+
-                      |
-                      v
-                Motor Driver
-                 /        \
-                v          v
-             Motor L    Motor R
-```
+
+<img width="141" height="311" alt="image" src="https://github.com/user-attachments/assets/5d2e962d-9e8e-483d-ad3c-b0f9a8892ce7" />
+
 
 ## Key Features
 
