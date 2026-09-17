@@ -11,7 +11,7 @@ The Raspberry Pi handles the high-level navigation logic, processes GPS informat
 ## System Architecture
 
 
-<img width="141" height="311" alt="image" src="https://github.com/user-attachments/assets/5d2e962d-9e8e-483d-ad3c-b0f9a8892ce7" />
+<img width="1800" height="3465" alt="NEO-8M GPS Navigation Logic-2026-09-17-171625" src="https://github.com/user-attachments/assets/3dcdd5c2-7633-40af-a3aa-1fe1a02c02a6" />
 
 
 ## Key Features
@@ -112,10 +112,10 @@ Receives commands from the Raspberry Pi and controls the motors through the moto
 * Raspberry Pi 4B 8-GB RAM
 * Arduino
 * NEO-8M GPS
+* Location Scripting
 * Serial Communication
-* Motor Driver
-* Git
-* GitHub
+* Motor Driver Calibrator
+
 
 ## Development Approach
 
