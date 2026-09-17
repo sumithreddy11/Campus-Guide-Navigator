@@ -58,7 +58,7 @@ The Raspberry Pi handles the high-level navigation logic, processes GPS informat
 
 ### Raspberry Pi
 
-The Raspberry Pi acts as the **high-level controller** of the system.
+The Raspberry Pi 8-GB RAM acts as the **high-level controller** of the system.
 
 Responsibilities include:
 
@@ -137,7 +137,7 @@ Receives commands from the Raspberry Pi and controls the motors through the moto
 
 * Python
 * C/C++
-* Raspberry Pi
+* Raspberry Pi 4B 8-GB RAM
 * Arduino
 * NEO-8M GPS
 * Serial Communication
